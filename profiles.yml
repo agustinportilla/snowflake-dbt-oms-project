@@ -8,6 +8,7 @@ default:
       warehouse: COMPUTE_WH
       database: DEV_OMS
       schema: SERVING
+      threads: 8
 
     prod:
       type: snowflake
@@ -16,3 +17,4 @@ default:
       warehouse: COMPUTE_WH
       database: PROD_OMS
       schema: SERVING
+      threads: 8
